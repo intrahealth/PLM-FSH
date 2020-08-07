@@ -1,0 +1,12 @@
+id: hl7.fhir.uv.plm
+canonical: http://datim.org/fhir/ig/plm
+name: PLMIG
+title: "DATIM Patient Level Monitoring IG"
+description: FHIR Implementation Guide for Patient Level Monitoring resources.
+status: draft
+license: CC0-1.0
+version: 0.1.0
+fhirVersion: 4.0.1
+releaseLabel: ci-build
+copyrightYear: 2020+
+template: hl7.fhir.template
