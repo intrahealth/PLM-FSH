@@ -127,3 +127,22 @@ Usage:          #definition
 * item[0].item[3].item[1].required = false
 * item[0].item[3].item[1].repeats = false
 
+* item[0].item[4].linkId = "Patient.identifier[0]"
+* item[0].item[4].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier"
+* item[0].item[4].text = "Source Identifier"
+* item[0].item[4].type = #group
+
+* item[0].item[4].item[0].linkId = "Practitioner.identifier[0].system"
+* item[0].item[4].item[0].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier.system"
+* item[0].item[4].item[0].text = "Source System"
+* item[0].item[4].item[0].type = #string
+* item[0].item[4].item[0].required = true
+* item[0].item[4].item[0].repeats = false
+
+* item[0].item[4].item[1].linkId = "Practitioner.identifier[0].value"
+* item[0].item[4].item[1].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier.value"
+* item[0].item[4].item[1].text = "Source ID"
+* item[0].item[4].item[1].type = #string
+* item[0].item[4].item[1].required = true
+* item[0].item[4].item[1].repeats = false
+
