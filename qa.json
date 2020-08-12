@@ -1,0 +1,12 @@
+{
+  "url": "http://datim.org/fhir/ig/plm/ImplementationGuide/hl7.fhir.uv.plm",
+  "name": "PLMIG",
+  "package-id": "hl7.fhir.uv.plm",
+  "ig-ver": "0.1.0",
+  "date": "Wed, 12 Aug, 2020 10:34:30 -0600",
+  "errs": 3,
+  "warnings": 4,
+  "hints": 1,
+  "version": "4.0.1",
+  "tool": "4.4.0 (3)"
+}

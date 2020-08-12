@@ -1,0 +1,44 @@
+{
+  "resourceType": "Patient",
+  "id": "plm-patient-example1",
+  "meta": {
+    "profile": [
+      "http://datim.org/fhir/ig/plm/StructureDefinition/plm-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: plm-patient-example1</p><p><b>meta</b>: </p><p><b>identifier</b>: id: aBcD1234 (OFFICIAL)</p><p><b>name</b>: Merimas Rumble (OFFICIAL)</p><p><b>telecom</b>: ph: 555-555-1212(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1964-11-19</p><p><b>address</b>: 123 Test Dr.\nTestville(HOME)</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://datim.org/ID/Source1",
+      "value": "aBcD1234"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Rumble",
+      "given": [
+        "Merimas"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "555-555-1212",
+      "use": "work"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1964-11-19",
+  "address": [
+    {
+      "use": "home",
+      "text": "123 Test Dr.\nTestville"
+    }
+  ]
+}

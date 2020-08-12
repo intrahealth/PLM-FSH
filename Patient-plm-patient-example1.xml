@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="plm-patient-example1"/>
+  <meta>
+    <profile value="http://datim.org/fhir/ig/plm/StructureDefinition/plm-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: plm-patient-example1</p><p><b>meta</b>: </p><p><b>identifier</b>: id: aBcD1234 (OFFICIAL)</p><p><b>name</b>: Merimas Rumble (OFFICIAL)</p><p><b>telecom</b>: ph: 555-555-1212(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1964-11-19</p><p><b>address</b>: 123 Test Dr.
+Testville(HOME)</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://datim.org/ID/Source1"/>
+    <value value="aBcD1234"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Rumble"/>
+    <given value="Merimas"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="555-555-1212"/>
+    <use value="work"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1964-11-19"/>
+  <address>
+    <use value="home"/>
+    <text value="123 Test Dr.&#xA;Testville"/>
+  </address>
+</Patient>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hl7.fhir.uv.plm",
+    "type": "ImplementationGuide",
+    "url": "http://datim.org/fhir/ig/plm/ImplementationGuide/hl7.fhir.uv.plm",
+    "version": "0.1.0",
+    "name": "PLMIG"
+  },
+  {
+    "id": "plm-patient",
+    "type": "Questionnaire",
+    "url": "http://datim.org/fhir/ig/plm/Questionnaire/plm-patient",
+    "version": "0.1.0",
+    "name": "plm-patient"
+  },
+  {
+    "id": "plm-patient",
+    "type": "StructureDefinition",
+    "url": "http://datim.org/fhir/ig/plm/StructureDefinition/plm-patient",
+    "version": "0.1.0",
+    "name": "PLMPatient"
+  }
+]
