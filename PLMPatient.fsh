@@ -68,7 +68,7 @@ Usage:          #definition
 * item[0].item[0].text = "Name"
 * item[0].item[0].type = #group
 
-* item[0].item[0].item[0].linkId = "Practitioner.name[0].use"
+* item[0].item[0].item[0].linkId = "Patient.name[0].use"
 * item[0].item[0].item[0].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.name.use"
 * item[0].item[0].item[0].text = "Name Usage"
 * item[0].item[0].item[0].type = #choice
@@ -78,28 +78,28 @@ Usage:          #definition
 * item[0].item[0].item[0].answerOption.valueCoding = http://hl7.org/fhir/name-use#official
 * item[0].item[0].item[0].answerOption.initialSelected = true
 
-* item[0].item[0].item[1].linkId = "Practitioner.name[0].family"
+* item[0].item[0].item[1].linkId = "Patient.name[0].family"
 * item[0].item[0].item[1].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.name.family"
 * item[0].item[0].item[1].text = "Family Name"
 * item[0].item[0].item[1].type = #string
 * item[0].item[0].item[1].required = true
 * item[0].item[0].item[1].repeats = false
 
-* item[0].item[0].item[2].linkId = "Practitioner.name[0].given[0]"
+* item[0].item[0].item[2].linkId = "Patient.name[0].given[0]"
 * item[0].item[0].item[2].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.name.given"
 * item[0].item[0].item[2].text = "Given Name(s)"
 * item[0].item[0].item[2].type = #string
 * item[0].item[0].item[2].required = true
 * item[0].item[0].item[2].repeats = true
 
-* item[0].item[1].linkId = "Practitioner.birthDate"
+* item[0].item[1].linkId = "Patient.birthDate"
 * item[0].item[1].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.birthDate"
 * item[0].item[1].text = "Date of Birth"
 * item[0].item[1].type = #date
 * item[0].item[1].required = false
 * item[0].item[1].repeats = false
 
-* item[0].item[2].linkId = "Practitioner.gender"
+* item[0].item[2].linkId = "Patient.gender"
 * item[0].item[2].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.gender"
 * item[0].item[2].text = "Gender"
 * item[0].item[2].type = #choice
@@ -112,7 +112,7 @@ Usage:          #definition
 * item[0].item[3].text = "Address"
 * item[0].item[3].type = #group
 
-* item[0].item[3].item[0].linkId = "Practitioner.address[0].use"
+* item[0].item[3].item[0].linkId = "Patient.address[0].use"
 * item[0].item[3].item[0].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.address.use"
 * item[0].item[3].item[0].text = "Address Usage"
 * item[0].item[3].item[0].type = #choice
@@ -120,7 +120,7 @@ Usage:          #definition
 * item[0].item[3].item[0].required = false
 * item[0].item[3].item[0].repeats = false
 
-* item[0].item[3].item[1].linkId = "Practitioner.address[0].text"
+* item[0].item[3].item[1].linkId = "Patient.address[0].text"
 * item[0].item[3].item[1].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.address.text"
 * item[0].item[3].item[1].text = "Address"
 * item[0].item[3].item[1].type = #string
@@ -132,14 +132,14 @@ Usage:          #definition
 * item[0].item[4].text = "Source Identifier"
 * item[0].item[4].type = #group
 
-* item[0].item[4].item[0].linkId = "Practitioner.identifier[0].system"
+* item[0].item[4].item[0].linkId = "Patient.identifier[0].system"
 * item[0].item[4].item[0].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier.system"
 * item[0].item[4].item[0].text = "Source System"
 * item[0].item[4].item[0].type = #string
 * item[0].item[4].item[0].required = true
 * item[0].item[4].item[0].repeats = false
 
-* item[0].item[4].item[1].linkId = "Practitioner.identifier[0].value"
+* item[0].item[4].item[1].linkId = "Patient.identifier[0].value"
 * item[0].item[4].item[1].definition = "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier.value"
 * item[0].item[4].item[1].text = "Source ID"
 * item[0].item[4].item[1].type = #string
